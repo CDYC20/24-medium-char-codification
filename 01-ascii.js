@@ -1,8 +1,13 @@
-function ascii(numero) {
+function ascii() {
+    // numero = Math.floor(Math.random() * 15000);
+    var numero = 0;
+    while(numero <= 100){
+        numero++
+        let caracter = String.fromCharCode(numero);
+        console.log(caracter); 
+    }
     
-    let caracter = String.fromCharCode(numero);
-    console.log(caracter);  // Output: A
 }
-ascii(66);
-ascii(67);
-ascii(68);
+ascii();
+
+
